@@ -25,11 +25,42 @@
     </nav>
 </header>
 
-<main>
+<main class="portafolio-container">
     <h1>Portafolio</h1>
+    <section class="portafolio-grid">
+        <div class="proyecto" data-proyecto="Diseño">
+            <img src="img/oster.jpg" alt="Caso de éxito Diseño">
+            <h2>Diseño</h2>
+            <button class="ver-mas">Ver más</button>
+        </div>
+        <div class="proyecto" data-proyecto="proyecto2">
+            <img src="img/proyecto2.jpg" alt="Proyecto 2">
+            <h2>Producción audiovisual</h2>
+            <button class="ver-mas">Ver más</button>
+        </div>
+        <div class="proyecto" data-proyecto="proyecto3">
+            <img src="img/proyecto2.jpg" alt="Proyecto 3">
+            <h2>Marketing Digital</h2>
+            <button class="ver-mas">Ver más</button>
+        </div>
+        <div class="proyecto" data-proyecto="proyecto4">
+            <img src="img/proyecto2.jpg" alt="Proyecto 4">
+            <h2> Consultoría </h2>
+            <button class="ver-mas">Ver más</button>
+        </div>
+    </section>
 
-
+    <!-- Contenedor para la descripción del proyecto -->
+    <section class="detalle-proyecto oculto" id="detalle-proyecto">
+        <button class="cerrar">X</button>
+        <div id="contenido-proyecto">
+            <h2>Nombre del Proyecto</h2>
+            <p>Aquí se mostrará la descripción del proyecto.</p>
+            <img src="" alt="" id="imagen-proyecto">
+        </div>
+    </section>
 </main>
+
 <footer>
     <div class="container">
         <p>&copy; 2025 FOUR. Todos los derechos reservados.</p>

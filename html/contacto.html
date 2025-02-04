@@ -27,8 +27,40 @@
 
 
 <main>
-    <h1>Contacto</h1>
-
+    <h1>Contáctanos</h1>
+    <section class="contacto text-center">
+        <h2 class="mb-4">Déjanos un mensaje</h2>
+        <form action="#" method="POST" class="contacto-form">
+            <div>
+                <label for="nombre" class="form-label">Nombre *</label>
+                <input type="text" id="nombre" name="nombre" class="form-control" required>
+            </div>
+            <div>
+                <label for="email" class="form-label">Correo Electrónico *</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div>
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input type="text" id="telefono" name="telefono" class="form-control">
+            </div>
+            <div>
+                <label for="empresa" class="form-label">Empresa</label>
+                <input type="text" id="empresa" name="empresa" class="form-control">
+            </div>
+            <div>
+                <label for="mensaje" class="form-label">Mensaje *</label>
+                <textarea id="mensaje" name="mensaje" class="form-control" rows="5" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </div>
+        </form>
+    </section>
+    <section class="info-contacto">
+        <h2>Información de contacto</h2>
+        <p><strong>Teléfono:</strong> +52 418 111 82 09</p>
+        <p><strong>Email:</strong> contacto@fouragenciacreativa.com</p>
+        <p><strong>Dirección:</strong> Guanajuato, México</p>
 </main>
 <footer>
     <div class="container">
@@ -43,6 +75,7 @@
                 <li><a href="../html/contacto.html">Contacto</a></li>
             </ul>
         </nav>
+        <h3>Síguenos en redes</h3>
         <div class="social-icons">
             <a href="https://www.facebook.com" target="_blank">
                 <img src="../img/Iconos/Facebook Icon.png" alt="Facebook Icon">
